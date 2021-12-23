@@ -1,0 +1,178 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0D0D0D;
+}
+
+#bgHome {
+    position: absolute;
+    top: 0;
+    height: 80%;
+    width: 100%;
+    opacity: .5;
+    z-index: 0;
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: luminosity;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Montserrat', sans-serif;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header img {
+    margin: 1%;
+    max-width: 30%; 
+    user-select: none;
+}
+
+header nav {
+    width: 100%;
+    padding: 1% 30%;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+header nav ul li {
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul a {
+    display: flex;
+    opacity: .5;
+    color: #fff;    
+    margin: 0 10%;
+    font-size: 20px;
+    user-select: none;
+    align-items: center;
+    transition: all .2s;
+}
+
+header nav ul a i {
+    margin-right: 10px;
+}
+
+header nav ul a:hover,
+header nav ul #active {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+main p {
+    padding: 0px 400px;
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+main .socials {
+    z-index: 1;
+    display: flex;
+    margin-top: 15px;
+    user-select: none;
+    align-items: center;
+}
+
+main .socials .icon {
+    color: #fff;
+    font-size: 35px;
+    margin: 0 10px;
+}
+
+main .socials .icon:hover {
+    color: rgb(100, 100, 100) !important;
+}
+
+main h1, h2 {
+    margin: 10px 0 15px;
+    text-align: center;
+    color: #fff
+}
+
+form {
+    z-index: 1;
+    margin: 55px auto;
+    width: 700px;
+    height: 420px;
+    border-radius: 10px;
+    border: 3px solid #CCC;
+}
+
+#msg, #nome,
+#email {
+    margin: 30px 0px 55px 15px;
+    width: 660px;
+    height: 35px;
+    display: flex;
+    background-color: #bdbebd;
+    color: black;
+}
+
+#msg {
+    height: 100px;
+}
+
+button {
+    color: black;
+    margin: 20px 0px 60px 15px;
+    width: 150px;
+    height: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bdbebd;
+    
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.container img {
+    max-width:60px;
+    max-height:30px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
